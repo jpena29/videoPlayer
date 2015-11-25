@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Video Player</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js"></script>
+	</head>
+	<body onload="init();">
+		<!-- Create a video element of width 640 and height 360 -->
+		<div id="vidContainer">	
+			<video id="videoElement" width="640" height="360">
+			<source src="html5.mp4" type="video/mp4" />
+			Your browser does not support the <video> element of html5.
+			</video></div>
+		<div id="controls">
+			<p>Controls</p>
+			<button onclick="playvideo();">Play</button>
+			<button onclick="pausevideo();">Pause</button>
+		</div>
+	</body>
+</html>

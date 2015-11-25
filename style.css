@@ -1,0 +1,11 @@
+video {
+	border: 1px solid black;
+}
+
+button {
+	cursor: pointer;
+}
+
+#controls {
+	border: 1px solid red;
+}
