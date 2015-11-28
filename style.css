@@ -9,3 +9,12 @@ button {
 #controls {
 	border: 1px solid red;
 }
+
+/* style the play/pause button */
+#playbtn {
+	width: 50px;
+	height: 20px;
+	padding: 10px 10px;
+	box-shadow: 1px 1px grey;
+	border-radius: 25px;
+}

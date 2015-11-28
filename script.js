@@ -6,12 +6,16 @@ function init() {
 	video = document.getElementById("videoElement");
 }
 
-/* play video */
-function playvideo() {
-	video.play();
-}
-
-/* pause video */
-function pausevideo() {
-	video.pause();
+/* one function to play and pause video with one button */
+function playPauseVid() {
+	console.log(document.getElementById("playbtn").value);
+	if(document.getElementById("playbtn").value === ">") {
+		video.play();
+		document.getElementById("playbtn").value = "||";
+		document.getElementById("playbtn").innerHTML = "Pause";
+	} else {
+		video.pause();
+		document.getElementById("playbtn").value = ">";
+		document.getElementById("playbtn").innerHTML = "Play";
+	}
 }
