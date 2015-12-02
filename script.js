@@ -12,10 +12,10 @@ function playPauseVid() {
 	if(document.getElementById("playbtn").value === ">") {
 		video.play();
 		document.getElementById("playbtn").value = "||";
-		document.getElementById("playbtn").innerHTML = "Pause";
+		document.getElementById("playbtn").innerHTML = "<p>Pause</p>";
 	} else {
 		video.pause();
 		document.getElementById("playbtn").value = ">";
-		document.getElementById("playbtn").innerHTML = "Play";
+		document.getElementById("playbtn").innerHTML = "<p>Play</p>";
 	}
 }
